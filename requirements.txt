@@ -1,0 +1,34 @@
+# FastAPI 核心依赖
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+
+# 数据库相关
+sqlalchemy==2.0.25
+alembic==1.13.1
+
+# 数据校验
+pydantic==2.5.3
+pydantic-settings==2.1.0
+email-validator==2.1.0
+
+# 配置管理
+python-dotenv==1.0.0
+
+# 日志相关
+loguru==0.7.2
+
+# 测试相关
+pytest==7.4.4
+requests==2.31.0
+httpx==0.26.0
+
+# 生产部署
+gunicorn==21.2.0
+
+# 安全相关
+python-multipart==0.0.6
+passlib[bcrypt]==1.7.4
+python-jose[cryptography]==3.3.0
+
+# 限流
+slowapi==0.1.9
